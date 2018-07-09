@@ -1,3 +1,8 @@
+html {
+	height: auto;
+}
+
+/*controls the size of the image and positions it in the center of the page*/
 .img {
 	width: 220px;
 	height: auto;
@@ -5,13 +10,15 @@
 	position: relative;
 	top:-4px;
 	left: -2.5%;
-	margin-bottom: 10px;
 }
 
+/*causes the element container to transform into the shape of a circle*/
 .round {
 	width: 210px;
 	height: auto;
 	border-radius: 50%;
+	border: solid white 2px;
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.6);
 	overflow: hidden;
 	clip-path: circle(50% at 50% 50%);
 	display: inline-block;
@@ -49,8 +56,10 @@ p, li, h2 {
 h1 {
 	color: sienna;
 	font-size: 5rem;
+	text-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
 }
 
+/*Controls the line-break of the paragraph and wraps it to the next line*/
 .wrap-around {
 	display: inline-block;
 	position: relative;
