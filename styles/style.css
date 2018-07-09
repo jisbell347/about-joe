@@ -38,3 +38,12 @@ h1 {
 	color: sienna;
 	font-size: 5rem;
 }
+
+.wrap-around {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: auto;
+	overflow-wrap: break-spaces;
+	text-align: center;
+}
