@@ -12,7 +12,7 @@ body {
 	background-color: lightsteelblue;
 	background-image: url("https://cbsnews2.cbsistatic.com/hub/i/r/2016/06/15/8a93c319-6e8b-4b5d-8661-7a803fab9a71/thumbnail/1200x630/90d34973616beff1351315f17fb56408/coffee.jpg");
 	background-size: cover;
-	background-repeat: none;
+	background-repeat: no-repeat;
 }
 
 .center {
